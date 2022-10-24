@@ -1,0 +1,110 @@
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+i {
+    font-size: 2rem;
+}
+
+/* nav */
+
+nav {
+    display: flex;
+    position: absolute;
+    padding: 20px;
+}
+
+.left_nav {
+    top: 0;
+    left: 0;
+    background-color: #000;
+    min-height: 100vh;
+    width: 150px;
+    overflow-y: hidden;
+}
+
+.nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    flex-grow: 1;
+}
+
+.nav_content {
+    flex-grow: 1;
+    height: 2rem;
+}
+
+.nav_content i {
+    color: #b3b3b3;
+    background-color: transparent;
+}
+
+.nav:last-child {
+    margin-top: 20px;
+    border-bottom: 1px solid #b2b2b2;
+}
+
+.container {
+    display: flex;
+    flex-grow: 1;
+    padding: 90px 50px 20px 50px;
+    gap: 20px;
+    background-color: #121212;
+}
+
+.top_nav {
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    right: 0;
+    height: 70px;
+    width: 100%;
+    background-color: #000;
+    filter: opacity(.2);
+}
+
+.arrows {
+    gap: 20px;
+}
+
+.arrow {
+    color: #000;
+}
+
+.user {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    background-color: #333;
+    padding: 3px;
+    border-radius: 15px;
+}
+
+/* page content */
+
+.content {
+    height: 40px;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.player {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #181818;
+}
